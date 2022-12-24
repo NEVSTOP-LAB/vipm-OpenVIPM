@@ -32,3 +32,6 @@ jobs:
 
       - name: OpenVIPM
         uses: NEVSTOP-LAB/vipm-OpenVIPM@main
+        with:
+          - LabVIEW_Version: 2017
+

@@ -5,6 +5,16 @@ branding:
   icon: "anchor"
   color: "green"
 
+inputs:
+  LabVIEW_Version:
+    description: "LabVIEW Version Used"
+    required: false
+    default: "2019"
+  Architecture:
+    description: "32bit/64bit Version of LabVIEW Used"
+    required: false
+    default: "x86"
+
 runs:
   using: "composite"
 

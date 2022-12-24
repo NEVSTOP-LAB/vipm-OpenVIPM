@@ -7,4 +7,6 @@ How to Use it:
 ```
       - name: OpenVIPM
         uses: NEVSTOP-LAB/vipm-OpenVIPM@main
+        with:
+          - LabVIEW_Version: 2017
 ```
