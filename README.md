@@ -1,13 +1,10 @@
-# vipm-SyncVIPMPackageLibrary
+# vipm-OpenVIPM
 
-use [lvcicd:vipm_syncvipmpackagelibrary](https://github.com/LV-APT/lvCICD/blob/main/docs/Operation-List.md#vipm_syncvipmpackagelibrary-sync-vipm-package-over-network) to sync vipm repo over network.
+[lvcicd:vipm_OpenVIPM](https://github.com/LV-APT/lvCICD/blob/main/docs/Operation-List.md#vipm_openvipm-open-vipm)
 
 How to Use it:
 
 ```
-      - name: SyncVIPMPackageLibrary
-        id: build-vip
-        uses: NEVSTOP-LAB/vipm-SyncVIPMPackageLibrary@main
-        with:
-          LabVIEW_Version: 2017
+      - name: OpenVIPM
+        uses: NEVSTOP-LAB/vipm-OpenVIPM@main
 ```
