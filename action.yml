@@ -1,6 +1,6 @@
-name: "vipm-BuildViPackage"
+name: "vipm-OpenVIPM"
 author: "NEVSTOP"
-description: "CICD Action for sync VIPM library"
+description: "CICD Action for opening VIPM"
 branding:
   icon: "anchor"
   color: "green"
